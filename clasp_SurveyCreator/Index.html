@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+       #wrapper{
+         margin: 20px auto;
+         width: 700px;
+         text-align: center;
+       }
+       h1{
+         margin-bottom: 30px;
+       }
+       label{
+       display: block;
+       font-weight: bold;
+       }
+       #class_name{
+       margin-bottom: 30px;
+       }
+       p{
+       margin-top: 0px;
+       }
+       #btn{
+       display: block;
+       margin: 10px auto;
+       }
+     </style>
+    <script>
+      // Prevent forms from submitting.
+      function preventFormSubmit() {
+        var forms = document.querySelectorAll('form');
+        for (var i = 0; i < forms.length; i++) {
+          forms[i].addEventListener('submit', function(event) {
+            event.preventDefault();
+          });
+        }
+      }
+      window.addEventListener('load', preventFormSubmit);
+      
+      // Swaps between pages
+      function loadPage(htmlOut) {
+        var div = document.getElementById('wrapper');
+        div.innerHTML = htmlOut;
+      }
+
+      function handleFormSubmit(formObject) {
+        var myRunner = google.script.run.withSuccessHandler(loadPage);
+        myRunner.processForm(formObject);
+      }
+      
+      
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Information Needed to Create the Class Survey Form</h1>
+      <form id="myForm" onsubmit="handleFormSubmit(this)">
+      
+        <label for="class_name">Name of Class</label>
+        <input name="className" type="text" id="class_name" />
+        
+        <label for="student_list">List of Students</label>
+        <p>Type or paste in a list of your students with each student's name on a separate line.</p>
+        <textarea id="student_list" rows="20" cols="40" name="classList"></textarea>
+        
+        <input type="submit" value="Submit"id="btn" onclick="this.value = 'Working...'"/>
+      </form>
+      <div id="output"></div>
+    </div>
+ </body>
+</html>
