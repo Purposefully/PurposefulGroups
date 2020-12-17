@@ -44,7 +44,11 @@ What I needed was a tool that could randomize groups while also taking into acco
 
 ## Screenshots
 
-![Select datafile](/images/choose_file.png?raw=true)
+![Select datafile](/images/choose_file.png?raw=true "Choosing a Datafile")
+![Teacher Options](/images/teacher_options.png?raw=true "Teacher Options")
+![Pairs](/images/pairs.png?raw=true "Pairs")
+![Groups of 3](/images/groups_of_3.png?raw=true "Groups of 3")
+![Groups of 4](/images/groups_of_4.png?raw=true "Groups of 4")
 
 ## Functionality
 When started, the app asks the user to select a data file.  With Python and pandas being new to me and knowing I would be the only user, I didn't take the time to figure out how to fully clean the data that is returned from the survey.  It seemed more efficient for this first version if I took care of those steps by hand in the Excel file.
@@ -56,7 +60,9 @@ The app creates the groups and displays them in a seating arrangement configured
 The classroom layout screen has 2 buttons to allow for zooming in and out.  There is a button for randomizing the groups according to the same settings as well as a button for returning to the settings screen in order to change them.  Another button leads to the selecting class data interface. 
 
 ## Design
-Frankly, I was mostly excited just to create something that worked!  There is a lot of room for improvement in the aesthetics of this app.
+Frankly, I was so excited just to have created something that worked!  There is a lot of room for improvement in the aesthetics of this app. I am sure the code needs to be refactored in a huge way. First, though, I wanted to test it in the classroom to see what I liked and didn't.  Teaching does not leave enough time and energy for a project like this, so any updates needed to wait until summer 2020.  And then COVID hit.
+
+When we finally reach post-COVID and there's a possibility that one or more teachers would find an app like this useful, I would love to refactor and improve it.  
 
 ## Running Locally
 Option 1:
