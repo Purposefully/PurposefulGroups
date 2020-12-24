@@ -91,6 +91,8 @@ When we finally reach post-COVID and there's a possibility that one or more teac
 ___
 ## Running Locally
 Option 1:
+*  Go to the PurposefulGroupsStandalone repository:
+https://github.com/Purposefully/PurposefulGroupsStandalone
 *  Download PurposefulGroups.exe and the SampleDataColors.csv. files
 *  Run PurposefulGroups
 
