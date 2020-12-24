@@ -13,6 +13,7 @@ ___
 * [Functionality](#Functionality)
 * [Design](#Design)
 * [Running Locally](#Running-Locally)
+* [Google Scripts App](#Google-Scripts-App)
 
 ___
 
