@@ -8,6 +8,7 @@
 * [Background](#Background)
 * [Features](#Features)
 * [Technologies Used](#Technologies-Used)
+* [Screenshots](#Screenshots)
 * [Functionality](#Functionality)
 * [Design](#Design)
 * [Running Locally](#Running-Locally)
@@ -46,7 +47,7 @@ What I needed was a tool that could randomize groups while also taking into acco
 
 ![Select datafile](/images/choose_file.png?raw=true "Choosing a Datafile")
 ![Teacher Options](/images/teacher_options.png?raw=true "Teacher Options")
-![Pairs](/images/pairs.png?raw=true "Pairs")
+![Pairs](/images/Pairs.png?raw=true "Pairs")
 ![Groups of 3](/images/groups_of_3.png?raw=true "Groups of 3")
 ![Groups of 4](/images/groups_of_4.png?raw=true "Groups of 4")
 
