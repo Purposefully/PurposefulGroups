@@ -97,14 +97,13 @@ https://github.com/Purposefully/PurposefulGroupsStandalone
 *  Run PurposefulGroups
 
 Option 2:
+*  These steps work on Windows and assume you have Python
 1. Create virtual environment
-    on Windows:  
     ```
     python -m venv name
     ```
     where name is whatever you want to call the environment 
 2. Activate the virtual environment
-    on Windows:
     ```
     call name\Scripts\activate
     ```
