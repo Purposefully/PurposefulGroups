@@ -12,6 +12,7 @@ ___
 * [Screenshots -- Google Scripts App](#Screenshots----Google-Scripts-App)
 * [Functionality](#Functionality)
 * [Design](#Design)
+* [Classroom Use & Impact](#Classroom-Use-&-Impact)
 * [Running Locally](#Running-Locally)
 * [Google Scripts App](#Google-Scripts-App)
 
@@ -34,8 +35,9 @@ ___
 * Accepts input from teacher with regard to group size (2, 3, or 4)
 * Accepts input from teacher about whether to create groupings of students who haven't worked together much or who really work together well
 * Accepts input about students who should not be included for that day's grouping (absent or opting out of groupwork for some reason)
-* Creates random groups BUT first sorts pairings according to criteria
-* Displays groups in a seating arrangement format so students will know where to sit and who their groupmates are
+* Sorts pairs of students according to criteria and student data provided
+* Uses those sorted pairings as a foundation for creating random groups that will match the requested criteria
+* Displays partners or groups in a seating arrangement format so students will know where to sit and who their groupmates are
 * Displays names of anyone who has not been placed in a group (due to class number not evenly divisible by group size)
 * Display size can be increased/decreased for visibility
 * Buttons to allow for easy re-randomization and returns to choosing class data or options
@@ -86,6 +88,15 @@ ___
 Frankly, I was so excited just to have created something that worked!  There is a lot of room for improvement in the aesthetics of this app. I am sure the code needs to be refactored in a huge way. First, though, I wanted to test it in the classroom to see what I liked and didn't.  Teaching does not leave enough time and energy for a project like this, so any updates needed to wait until summer 2020.  And then COVID hit.
 
 When we finally reach post-COVID and there's a possibility that one or more teachers would find an app like this useful, I would love to refactor and improve it.  
+
+[Return to Table of Contents](#Table-of-Contents)
+___
+## Classroom Use & Impact
+Several times a week, students were placed in groups of 3-4 using the New Partners setting for comparing their homework answers and creating a group homework answer page to be submitted for a grade.  I used New Partners because this task is highly structured and low risk and student learning would benefit from diverse perspectives.
+
+Several times a week, students were placed in partners using the Preferred Partners setting to work on learning tasks such as challenging card sorts where they had to analyze information, make conjectures, and draw conclusions.  I used Preferred Partners because student learning would benefit from the safety created by working with classmates they were comfortable with when sharing ideas they might be uncertain about.
+
+![Impact](/Images/impact.png?raw=true)
 
 [Return to Table of Contents](#Table-of-Contents)
 ___
