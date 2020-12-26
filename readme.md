@@ -12,7 +12,7 @@ ___
 * [Screenshots -- Google Scripts App](#Screenshots----Google-Scripts-App)
 * [Functionality](#Functionality)
 * [Design](#Design)
-* [Classroom Use & Impact](#Classroom-Use-&-Impact)
+* [Classroom Use & Impact](#Classroom-Use-and-Impact)
 * [Running Locally](#Running-Locally)
 * [Google Scripts App](#Google-Scripts-App)
 
@@ -91,12 +91,12 @@ When we finally reach post-COVID and there's a possibility that one or more teac
 
 [Return to Table of Contents](#Table-of-Contents)
 ___
-## Classroom Use & Impact
+## Classroom Use and Impact
 Several times a week, students were placed in groups of 3-4 using the New Partners setting for comparing their homework answers and creating a group homework answer page to be submitted for a grade.  I used New Partners because this task is highly structured and low risk and student learning would benefit from diverse perspectives.
 
 Several times a week, students were placed in partners using the Preferred Partners setting to work on learning tasks such as challenging card sorts where they had to analyze information, make conjectures, and draw conclusions.  I used Preferred Partners because student learning would benefit from the safety created by working with classmates they were comfortable with when sharing ideas they might be uncertain about.
 
-![Impact](/Images/impact.png?raw=true)
+![Impact](/images/Impact.png?raw=true)
 
 [Return to Table of Contents](#Table-of-Contents)
 ___
