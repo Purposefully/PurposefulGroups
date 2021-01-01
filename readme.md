@@ -8,9 +8,9 @@
 
 [![Video Tour](/images/VideoThumbnail.png?raw=true)](https://youtu.be/fKRsr75Jf5I)
 
-(A stand-alone app)
 
 ### Intuitive group randomizing app that incorporates student preferences and teacher objectives
+
 ___
 
 ## Table of Contents
@@ -36,6 +36,7 @@ How do I, as a teacher, facilitate group work so that it contributes positively 
 What I needed was a tool that could randomize groups while also taking into account some student preferences and my teacher goals for an activity.  The Purposeful Groups App was my answer.  I collected data from students in each class about their past experiences working with each of their classmates.  When students work on a low risk activity like comparing homework answers to create a group answer page (with the option for any member to disagree with an answer in the end), I use the "New Partners" setting.  The app starts with pairs of students who report not having worked together, randomizing them into the requested group size, and then filling in with students remaining.  When students are going to work on a challenging math task and thus need to be comfortable sharing their ideas and questions, I use the "Preferred Partners" setting.  The app starts with pairs of students who report that they work well together, randomizing them into the requested group size, and filling in with remaining students.  Students who cannot function well together often self-report on the survey or I go in and update the data as needed; the app avoids putting those students together.
 
 [Return to Table of Contents](#Table-of-Contents)
+
 ___
 
 ## Features
@@ -52,10 +53,11 @@ ___
 * Stand alone app that can be easily installed on teacher's computer and not dependent on internet nor risking any student data on the internet (other than the original survey done through Google Forms)
 
 [Return to Table of Contents](#Table-of-Contents)
+
 ___
 
 ## Technologies Used
-* Python 3.9.0 -- I don't remember why I chose this language.  I knew nothing about languages and their benefits or drawbacks.  I was able to find some books about getting started with Python, so I gave it a try.
+* Python 3.9.0 -- Knowing nothing about languages and their benefits or drawbacks, I decided to give Python a try since I was able to find several library books that looked like they would be helpful.
 * Pandas -- I wanted to be able to use data from a spreadsheet.  In my research, this was the library that surfaced.
 * Tkinter -- I needed some GUIs for the teacher to use and final groups to be displayed.  This library enabled me to create a somewhat responsive final classroom seating arrangement.
 * PyInstaller -- I wanted an easy way to install and access my app on a school computer.  This tool allowed me to package everything into one executable file.
