@@ -70,23 +70,23 @@ ___
 ## Functionality
 Students complete a survey that asks them to rate how well they work with each of their classmates.  
 
-<img src="https://github.com/Purposefully/PurposefulGroups/blob/master/images/survey_question.png?raw=true" alt="Survey questions" width="300">  
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/survey_question.png?raw=true" alt="Survey questions" width="300">  
 
 When started, the app asks the user to select a data file.  With Python and pandas being new to me and knowing I would be the only user, I didn't take the time to figure out how to fully clean the data that is returned from the survey.  It seemed more efficient for this first version if I took care of those steps by hand in the Excel file.  
 
-<img src="https://github.com/Purposefully/PurposefulGroups/blob/master/images/choose_file.png?raw=true" alt="Choose a data file" width="300">  
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/choose_file.png?raw=true" alt="Choose a data file" width="300">  
 
 The next screen allows the teacher to check the names of any students who are absent or not participating.  The teacher also selects whether groups should consist of 2, 3, or 4 people.  Finally, the teacher indicates whether the app should prioritize pairings of students who have not worked much together (New Partners) or pairings of students who work well together (Preferred Partners).  
 
-<img src="https://github.com/Purposefully/PurposefulGroups/blob/master/images/teacher_options.png?raw=true" alt="Teacher Options" width="300">  
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/teacher_options.png?raw=true" alt="Teacher Options" width="300">  
 
 The app creates the groups and displays them in a seating arrangement configured for my classroom.  Allowing a teacher the flexibilty to change the classroom layout is one feature that would be nice to add.  At the bottom of the screen, the app lists the names of any students who still need a group.  
 
-<img src="https://github.com/Purposefully/PurposefulGroups/blob/master/images/Pairs.png?raw=true" alt="Partners" width="300">  
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/Pairs.png?raw=true" alt="Partners" width="300">  
 
-<img src="https://github.com/Purposefully/PurposefulGroups/blob/master/images/groups_of_3.png?raw=true" alt="Groups of 3" width="300">  
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/groups_of_3.png?raw=true" alt="Groups of 3" width="300">  
 
-<img src="https://github.com/Purposefully/PurposefulGroups/blob/master/images/groups_of_4.png?raw=true" alt="Groups of 4" width="300">  
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/groups_of_4.png?raw=true" alt="Groups of 4" width="300">  
 
 The classroom layout screen has 2 buttons to allow for zooming in and out.  There is a button for randomizing the groups according to the same settings as well as a button for returning to the settings screen in order to change them.  Another button leads to the selecting class data interface. 
 
@@ -108,7 +108,7 @@ Several times a week, students were placed in groups of 3-4 using the New Partne
 
 Several times a week, students were placed in partners using the Preferred Partners setting to work on learning tasks such as challenging card sorts where they had to analyze information, make conjectures, and draw conclusions.  I used Preferred Partners because student learning would benefit from the safety created by working with classmates they were comfortable with when sharing ideas they might be uncertain about.
 
-<img src="https://github.com/Purposefully/PurposefulGroups/blob/master/images/Impact.png?raw=true" alt="Impact" width="300">  
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/Impact.png?raw=true" alt="Impact" width="300">  
 
 [Return to Table of Contents](#Table-of-Contents)
 
@@ -160,13 +160,13 @@ Creating a survey by hand for students in each of my classes to take in order to
 
 https://script.google.com/macros/s/AKfycbydLFjo8pPKxRvCW17Ucc1Hff3ziFdRAIoJW5SWyC4qfWgHxWA/exec
 
-<img src="https://github.com/Purposefully/PurposefulGroups/blob/master/images/GoogleScriptApp.png?raw=true" alt="Impact" width="300">  
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/GoogleScriptApp.png?raw=true" alt="Impact" width="300">  
 
 Notes:
 * The script does take about 30 seconds to run for a class of about 30 students.  Which does not sound like long but is noticeable.
 * The survey form opens in edit mode.  To see a preview of what it would look like for students, click the eye icon in the top right corner.
 
-<img src="https://github.com/Purposefully/PurposefulGroups/blob/master/images/Survey_form.png?raw=true" alt="Impact" width="300">  
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/Survey_form.png?raw=true" alt="Impact" width="300">  
 
 [Return to Table of Contents](#Table-of-Contents)
 
